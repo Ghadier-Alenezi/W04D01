@@ -1,0 +1,25 @@
+.TodoItem {
+  background-color: gray;
+  margin: 1rem auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.todoLi {
+  width: 80%;
+  display: flex;
+  gap: 200px;
+}
+.close {
+  cursor: pointer;
+}
+.close:hover {
+  color: red;
+}
+
+.update{
+  cursor: pointer;
+}
+.update:hover{
+  color: blue;
+}
